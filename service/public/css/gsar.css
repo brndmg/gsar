@@ -1,0 +1,129 @@
+header img {
+    float: right;
+    height: 150px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+#content {
+    clear: both;
+}
+
+
+#teamPic{
+	border-radius:2px;
+	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+	margin: 5px 0px
+}
+
+header {
+    border-bottom: #333333 solid 1px;
+    height: 150px;
+    position: relative;
+    margin-top: 20px;
+}
+
+header h1 {
+    margin-right: 200px;
+    position: absolute;
+    bottom: 0px;
+}
+
+#menu-button {
+    display: none;
+}
+
+h2 {
+    color: #007E4C;
+}
+
+form {
+    border: #D7D7D7 solid 1px;
+    padding: 20px;
+}
+
+.navbar {
+    margin-left: -25px;
+    margin-right: -25px;
+}
+
+.picker-search-button {
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
+.icon-ok {
+    color: #007E4C; 
+}
+  
+.icon-remove {
+    color: #C4161C; 
+}
+
+#status-message {
+    color: #FF0000;
+    font-weight: bold;
+}
+
+@media (max-width: 830px) {
+  #title {
+    display: none;
+  }
+  
+  #menu-list {
+    display: none;
+    float: none;
+    margin-top: 10px;
+  }
+  
+  #menu-button {
+    display: inline-block;
+    float: right;
+  }
+  
+  #menu-list li {
+    display: block;
+    width: 100%;
+    text-align: center;
+    float: none;
+    border-top: 1px solid #D7D7D7;
+  }
+  
+  #menu-title {
+    float: none;
+  }
+  
+  header img {
+    position: static;
+    float: none;
+  }
+  
+  .container-fluid {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .navbar {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+  
+  header {
+    text-align: center;
+  }
+  
+}
+
+@media (max-width: 480px) {
+    
+    #header {
+        display: none;
+    }
+    
+    #content div {
+        margin-left: 0px;
+        width: 100%;
+    }
+  
+}
